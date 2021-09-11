@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{0fcd2fe0-e9f5-48cd-9927-a6782c27df83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\Singleton">
+      <UniqueIdentifier>{b7b49737-b701-409d-a676-9f31caf32203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\Observer">
+      <UniqueIdentifier>{42352e2d-38b5-49a9-a865-a4bbac8982ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Role">
+      <UniqueIdentifier>{d2bbaa65-65b6-4c87-b3c1-4160edc7f020}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UmlProTheatre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectronicSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spectacle.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Reservation.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Observable.cpp">
+      <Filter>Database\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Database\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Role</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>Role</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ElectronicSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spectacle.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservation.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="SingDatabase.h">
+      <Filter>Database\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="IObserver.h">
+      <Filter>Database\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observable.h">
+      <Filter>Database\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Database\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Role</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>Role</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

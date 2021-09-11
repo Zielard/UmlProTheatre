@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ElectronicSystem">
+    <Position X="7" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACIAAAAAAAAAgAAAAAAIEAAAAAAAAEBAAAAAA=</HashCode>
+      <FileName>ElectronicSystem.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="admin" />
+      <Field Name="client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Reservation">
+    <Position X="12.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IADAAAAAAAIAAAgAECAAACAEAAIEIgAAAAGAAAAIAAI=</HashCode>
+      <FileName>Reservation.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="spectacle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Database">
+    <Position X="0.5" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACEAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAA=</HashCode>
+      <FileName>Database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingDatabase">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>SingDatabase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IObserver">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observable">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAABAAAIAAAAAAAA=</HashCode>
+      <FileName>Observable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Admin">
+    <Position X="4.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAgABgAAAAEQAAAAAAAAAAAAAABAAgAAA=</HashCode>
+      <FileName>Admin.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="client" />
+      <Field Name="database" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Client">
+    <Position X="1.75" Y="7" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ICUAAAQAAgAAAADwBkAAAAAQABAEABBAAAAAAAAAAAQ=</HashCode>
+      <FileName>Client.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="database" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Spectacle">
+    <Position X="8.75" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAASIIAAAAAIAAAAABACAYAEBADIAAAEAYBAAAA=</HashCode>
+      <FileName>spectacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
