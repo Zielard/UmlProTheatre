@@ -1,5 +1,5 @@
 #pragma once
-#include "Settings.h"
+#include "CommonModule.h"
 #include <vector>
 #include "Spectacle.h"
 

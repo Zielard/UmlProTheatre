@@ -59,7 +59,7 @@
     <ClInclude Include="ElectronicSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Settings.h">
+    <ClInclude Include="CommonModule.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="spectacle.h">

@@ -1,5 +1,5 @@
 #pragma once
-#include "Settings.h"
+#include "CommonModule.h"
 #include "Reservation.h"
 #include "Observable.h"
 #include <vector>

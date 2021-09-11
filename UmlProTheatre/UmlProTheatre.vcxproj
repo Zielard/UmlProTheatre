@@ -158,7 +158,7 @@
     <ClInclude Include="Observable.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="Reservation.h" />
-    <ClInclude Include="Settings.h" />
+    <ClInclude Include="CommonModule.h" />
     <ClInclude Include="SingDatabase.h" />
     <ClInclude Include="spectacle.h" />
   </ItemGroup>

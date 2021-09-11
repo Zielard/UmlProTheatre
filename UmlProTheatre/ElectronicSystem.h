@@ -1,5 +1,5 @@
 #pragma once
-#include "Settings.h"
+#include "CommonModule.h"
 #include "Client.h"
 #include "Database.h"
 #include "Admin.h"

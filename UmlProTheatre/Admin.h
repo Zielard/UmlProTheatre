@@ -21,8 +21,6 @@ public:
 
    void editSpectacle();
 
-   void applyPayment();
-
    void viewAllTickets();
 };
 
